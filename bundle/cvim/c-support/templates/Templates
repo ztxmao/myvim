@@ -1,0 +1,36 @@
+$
+$ =============================================================
+$ ========== USER MACROS ======================================
+$ =============================================================
+$
+|AUTHOR|    = chengjunxiong 
+|AUTHORREF| = cjx
+|EMAIL|     = chengjunxiong@360.cn
+|COMPANY|   = 360
+|COPYRIGHT| = 360 Copyright (c) |2013, |cjx|
+|STYLE|     = C
+$
+$ =============================================================
+$ ========== FILE INCLUDES ====================================
+$ =============================================================
+$
+== IF  |STYLE| IS C  ==
+$
+|includefile| = c.comments.template
+|includefile| = c.cpp.template
+|includefile| = c.idioms.template
+|includefile| = c.preprocessor.template
+|includefile| = c.statements.template
+$
+== ENDIF ==
+
+== IF |STYLE| IS CPP ==
+$
+|includefile| = cpp.comments.template
+|includefile| = cpp.cpp.template
+|includefile| = cpp.idioms.template
+|includefile| = cpp.preprocessor.template
+|includefile| = cpp.statements.template
+$
+== ENDIF ==
+$
